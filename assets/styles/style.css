@@ -270,6 +270,7 @@ section {
   background-position: center;
   display: flex;
   flex-direction: column;
+  margin: 5rem 0 6rem;
 }
 
 .latest-deal h2 {
@@ -300,7 +301,7 @@ section {
   height: 6.5rem;
   border: none;
   padding: 1rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
 .latest-deal .newsletter button {
@@ -317,24 +318,123 @@ section {
 /* FOOTER START */
 /* contact us section start here */
 
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0 6rem;
+}
 
+.contact-us .contact-us-form .name,
+.email,
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.contact-us .contact-us-form label {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #272727;
+}
+
+.contact-us .contact-us-form input,
+textarea {
+  font-size: 1.8rem;
+  padding: 1rem;
+  border: 2px solid rgba(202, 25, 134, 0.1);
+  border-radius: 0.8rem;
+  outline: none;
+}
+
+.contact-us .contact-us-form input:focus,
+textarea:focus {
+  border: 2px solid rgba(209, 31, 31, 0.2);
+}
+
+.contact-us .contact-us-form button {
+  color: #e55473;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 1px solid #e55473;
+  border-radius: 0.8rem;
+  padding: 1.5rem 3.5rem;
+}
+
+.contact-us .contact-us-form button:hover {
+  background: #e55473;
+  color: white;
+  border: none;
+}
+
+.contact-us .info {
+  width: 50%;
+}
+
+.contact-us .info h3 {
+  color: #272727;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 1.5rem 0;
+}
+
+.contact-us .info p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  padding: 1rem 0 2rem;
+}
+
+.contact-us ul li {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact-us ul li a {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 3rem;
+  text-decoration: none;
+}
 
 /* contact us section ends here */
+
+.footer-section {
+  background: #111010;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.footer h1 {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 800;
+}
+
+.footer h1 span {
+  color: #e55473;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  padding: 1.5rem 0 4rem;
+}
+
+.footer .declaration {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
 /* FOOTER END */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
